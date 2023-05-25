@@ -1,0 +1,1122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid yellow; */
+}
+html {
+  scroll-behavior: smooth;
+}
+.harder {
+  width: 100%;
+  height: 105px;
+  background: #1e1e1e;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+  border: 1px solid #333333;
+}
+.image-one {
+  padding: 40px 0 0 70px;
+  height: auto;
+  cursor: pointer;
+}
+.harder > ul > li {
+  list-style: none;
+  display: inline-block;
+}
+.harder > ul {
+  margin-left: 500px;
+  margin-top: -22px;
+}
+.harder a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 40px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+}
+.harder > ul > li > :hover {
+  border-bottom: 1px solid #00aaff;
+  padding-bottom: 40px;
+}
+.image-two {
+  display: inline-block;
+  width: 200px;
+}
+.image-two > img {
+  margin-left: 25px;
+  vertical-align: middle;
+}
+
+/* <!-- ----------THE FASTEST PERSONAL JET--------------------------> */
+.jet {
+  background-image: url(./flarislar01_filtr.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 90vh;
+  background-color: #1e1e1e;
+  padding: 1px;
+}
+.heading > h2,
+.heading > h1 {
+  text-align: center;
+  font-size: 29px;
+  font-family: (stack) Barlow, Yantramanav, "Open Sans", sans-serif;
+  margin-top: 15px;
+}
+.heading {
+  width: 70%;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 15%;
+}
+.heading > h2:before {
+  content: "\f105";
+  font-family: fontAwesome;
+  padding-right: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.heading > h2:after {
+  content: "\f104";
+  font-family: fontAwesome;
+  padding-left: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.heading > h2 {
+  color: #00aaff;
+}
+.heading > h1 {
+  color: white;
+  font-size: 26px;
+}
+span:before {
+  content: "\f102";
+  font-family: fontAwesome;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  z-index: 1;
+  bottom: 125px;
+  right: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 5px;
+  color: #fff;
+}
+/* <!-- -----------------featurs---------------------------------- --> */
+
+.festure {
+  width: 100%;
+  height: 12vh;
+}
+.anchor {
+  width: 70%;
+  text-align: center;
+  margin-left: 250px;
+  height: 10vh;
+  margin-top: 3vh;
+  padding-top: 22px;
+}
+.anchor > a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+/* <!-- ------------------- FLARIS LAR 01------------------------- -> */
+
+.flaris {
+  width: 100%;
+  height: 90vh;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/tlo_do_foty.png");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+}
+.flaris > h1:before {
+  content: "\f105";
+  font-family: fontAwesome;
+  padding-right: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.flaris > h1:after {
+  content: "\f104";
+  font-family: fontAwesome;
+  padding-left: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.flaris > h1 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.flaris > p {
+  width: 800px;
+  text-align: center;
+  margin: auto;
+  font-size: 17px;
+  color: #666666;
+}
+.jahaz {
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/fota-copy1-1.png");
+  width: 88%;
+  height: 75%;
+  margin-left: 80px;
+  margin-top: -30px;
+}
+.plane > img {
+  width: 93%;
+}
+
+/* <!-- =========================FEATURES================= --> */
+.features {
+  width: 100%;
+  height: 185vh;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+}
+.features > h1 {
+  padding-top: 110px;
+  color: #333333;
+  text-align: center;
+}
+.features > h1:before {
+  content: "\f105";
+  font-family: fontAwesome;
+  padding-right: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.features > h1:after {
+  content: "\f104";
+  font-family: fontAwesome;
+  padding-left: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.features > p {
+  width: 800px;
+  font-family: Helvetica, sans-serif;
+  color: #666666;
+  margin: auto;
+  text-align: center;
+  font-size: 17px;
+  padding-top: 30px;
+}
+.feature-system {
+  width: 90%;
+  height: 73vh;
+  margin-left: 75px;
+}
+.feature-next {
+  width: 43%;
+  height: 65vh;
+  float: left;
+  margin-top: 40px;
+}
+.feature-one {
+  width: 93%;
+  height: 65vh;
+  border: 1px solid #cccccc;
+}
+.feature-two {
+  padding: 100px 0 0 50px;
+  color: #51527a;
+}
+.feature-two > h3 {
+  padding-bottom: 10px;
+  color: #666666;
+}
+.feature-two > p {
+  line-height: 24px;
+  width: 410px;
+  text-align: center;
+  color: #666666;
+}
+.feature-next > img {
+  width: 100%;
+  height: 100%;
+}
+.feature-class {
+  width: 57%;
+}
+/* ============================================================= */
+.feature-main-part {
+  width: 92.6%;
+  height: 75vh;
+  margin-left: 77px;
+  margin-top: 40px;
+}
+.feature-photo {
+  width: 44%;
+  height: 70vh;
+  float: left;
+}
+.photo-extra {
+  width: 56%;
+}
+.feature-photo > img {
+  width: 100%;
+  height: 100%;
+}
+.feature-tasveer {
+  width: 88%;
+  height: 70vh;
+  margin: auto;
+  border: 1px solid #cccccc;
+}
+.feature-card {
+  width: 100%;
+  height: 45vh;
+  padding-top: 80px;
+  color: #51527a;
+  margin: auto;
+}
+.feature-card > h3 {
+  text-align: start;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  width: 500px;
+}
+.feature-card > p {
+  width: 460px;
+  line-height: 24px;
+  padding-left: 50px;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  font-size: 17px;
+}
+
+/* <!-- --------------------COCKPIT------------------ --> */
+
+.cockpit {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./kabina_filtr.jpg);
+  background-size: 100% 100%;
+  position: relative;
+}
+.cockpit > h1 {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 70px;
+  box-sizing: border-box;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  padding-bottom: 30px;
+}
+.cockpit > h1:before {
+  content: "\f105";
+  font-family: fontAwesome;
+  padding-right: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.cockpit > h1:after {
+  content: "\f104";
+  font-family: fontAwesome;
+  padding-left: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.cockpit > p {
+  text-align: center;
+  color: #ffffff;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  line-height: 24px;
+  width: 60%;
+  text-align: start;
+  margin: auto;
+}
+.img001 {
+  position: absolute;
+  top: 550px;
+  left: 280px;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/11.png");
+
+  background-repeat: no-repeat;
+}
+.img002 {
+  position: absolute;
+  top: 300px;
+  left: 550px;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/2.2.png");
+  background-repeat: no-repeat;
+}
+.img003 {
+  position: absolute;
+  top: 510px;
+  left: 880px;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/33.png");
+  background-repeat: no-repeat;
+}
+.img004 {
+  position: absolute;
+  top: 620px;
+  left: 1090px;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/4.4.png");
+  background-repeat: no-repeat;
+}
+.img005 {
+  position: absolute;
+  top: 630px;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/5.png");
+  background-repeat: no-repeat;
+}
+.img001 img,
+.img002 img,
+.img003 img,
+.img004 img,
+.img005 img {
+  opacity: 0;
+}
+.picture:hover img {
+  opacity: 1;
+}
+
+/* <!-- -------------------------SAFETY----------------------------> */
+
+.safety {
+  width: 100%;
+  height: auto;
+}
+.safety > h1 {
+  text-align: center;
+  color: #333333;
+  padding-top: 70px;
+  box-sizing: border-box;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  padding-bottom: 30px;
+}
+.safety > h1:before {
+  content: "\f105";
+  font-family: fontAwesome;
+  padding-right: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.safety > h1:after {
+  content: "\f104";
+  font-family: fontAwesome;
+  padding-left: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.safety > p {
+  text-align: center;
+  color: #666666;
+  width: 62%;
+  margin: auto;
+  font-size: 17px;
+  padding-bottom: 40px;
+}
+.system {
+  width: 90%;
+  height: 75vh;
+  margin: auto;
+}
+.safety-system {
+  width: 44%;
+  height: 70vh;
+  float: left;
+}
+.extra {
+  width: 56%;
+}
+.extra > img {
+  width: 100%;
+  height: 100%;
+}
+.block-card {
+  width: 88%;
+  height: 70vh;
+  margin: auto;
+  border: 1px solid #cccccc;
+}
+.block {
+  width: 100%;
+  height: 45vh;
+  padding-top: 80px;
+  color: #51527a;
+  margin: auto;
+}
+.block > h3 {
+  text-align: start;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+.block > p {
+  width: 500px;
+  line-height: 24px;
+  /* margin: auto; */
+  padding-left: 30px;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  font-size: 17px;
+}
+.block-one {
+  padding-top: 30px;
+  width: 100%;
+  height: 25vh;
+  color: #51527a;
+  text-align: start;
+}
+.block-one > h3 {
+  padding-left: 27px;
+  padding-bottom: 10px;
+}
+.block-one > p {
+  width: 450px;
+  line-height: 24px;
+  padding-left: 27px;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  font-size: 17px;
+}
+/* =============================
+ */
+
+.next-system {
+  width: 88%;
+  height: 73vh;
+  margin-left: 84px;
+}
+.safety-next {
+  width: 43%;
+  height: 65vh;
+  float: left;
+}
+.block-card-one {
+  width: 93%;
+  height: 65vh;
+  border: 1px solid #cccccc;
+}
+.block-two {
+  padding: 100px 0 0 50px;
+  color: #51527a;
+}
+.block-two > h3 {
+  padding-bottom: 10px;
+}
+.block-two > p {
+  line-height: 24px;
+  width: 410px;
+}
+.safety-next > img {
+  width: 100%;
+  height: 100%;
+}
+.extra-class {
+  width: 57%;
+}
+
+/* ----------------------------fuselage-- */
+
+.fuselage {
+  width: 100%;
+  height: 150vh;
+  background-image: url(./kadlub_filtr.jpg);
+  background-size: cover;
+  color: white;
+  padding-top: 50px;
+  position: relative;
+  text-align: center;
+}
+.fuselage > h1:before {
+  content: "\f105";
+  font-family: fontAwesome;
+  padding-right: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.fuselage > h1:after {
+  content: "\f104";
+  font-family: fontAwesome;
+  padding-left: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.fuselage p {
+  padding-top: 40px;
+  width: 1000px;
+  text-align: start;
+  margin: auto;
+  line-height: 24px;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+}
+.img01 {
+  position: absolute;
+  top: 680px;
+  left: 250px;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/11.png");
+  background-repeat: no-repeat;
+}
+.img02 {
+  position: absolute;
+  top: 500px;
+  left: 550px;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/2.2.png");
+  background-repeat: no-repeat;
+}
+.img03 {
+  position: absolute;
+  top: 730px;
+  left: 1000px;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/33.png");
+  background-repeat: no-repeat;
+}
+.img04 {
+  position: absolute;
+  top: 670px;
+  left: 1390px;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/4.4.png");
+  background-repeat: no-repeat;
+}
+.img01 img,
+.img02 img,
+.img03 img,
+.img04 img {
+  opacity: 0;
+}
+.picture:hover img {
+  opacity: 1;
+}
+
+/* ==================propulsion================ */
+
+.propulsion {
+  width: 100%;
+  height: 115vh;
+}
+.propulsion > h1 {
+  padding-top: 50px;
+  color: #333333;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.propulsion > h1:before {
+  content: "\f105";
+  font-family: fontAwesome;
+  padding-right: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.propulsion > h1:after {
+  content: "\f104";
+  font-family: fontAwesome;
+  padding-left: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.propulsion > p {
+  text-align: center;
+  width: 1130px;
+  color: #666666;
+  line-height: 24px;
+  font-size: 19px;
+  margin: auto;
+  height: 200px;
+}
+.propulsion-card {
+  width: 88%;
+  height: 73vh;
+  margin-left: 75px;
+}
+.propulsion-next {
+  width: 43%;
+  height: 65vh;
+  float: left;
+}
+.propulsion-one {
+  width: 93%;
+  height: 65vh;
+  border: 1px solid #cccccc;
+}
+.propulsion-two {
+  padding: 100px 0 0 50px;
+  color: #51527a;
+}
+.propulsion-two > h3 {
+  padding-bottom: 40px;
+  color: #333333;
+}
+.propulsion-two > p {
+  line-height: 24px;
+  width: 410px;
+  color: #333333;
+  font-size: 17px;
+}
+.propulsion-next > img {
+  width: 100%;
+  height: 100%;
+}
+.propulsion-pic {
+  width: 57%;
+}
+/* ==============EXTERIOR DESIGN=============== */
+.design {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./design_filtr.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  padding-top: 50px;
+  position: relative;
+}
+.design > h1 {
+  padding-bottom: 40px;
+  text-align: center;
+}
+.design > p {
+  width: 1030px;
+  margin: auto;
+  line-height: 24px;
+}
+.design > h1:before {
+  content: "\f105";
+  font-family: fontAwesome;
+  padding-right: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.design > h1:after {
+  content: "\f104";
+  font-family: fontAwesome;
+  padding-left: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.img1 {
+  position: absolute;
+  top: 500px;
+  left: 200px;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/11.png");
+
+  background-repeat: no-repeat;
+}
+.img2 {
+  position: absolute;
+  top: 450px;
+  left: 700px;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/2.2.png");
+  background-repeat: no-repeat;
+}
+.img3 {
+  position: absolute;
+  top: 430px;
+  left: 900px;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/33.png");
+  background-repeat: no-repeat;
+}
+.img4 {
+  position: absolute;
+  top: 600px;
+  left: 1190px;
+  background-image: url("https://flaris.pl/wp-content/uploads/2018/09/4.4.png");
+  background-repeat: no-repeat;
+}
+.img1 img,
+.img2 img,
+.img3 img,
+.img4 img {
+  opacity: 0;
+}
+.picture:hover img {
+  opacity: 1;
+}
+
+/* <!-- ==============================SPECIFICATION==================== */
+
+.specification {
+  width: 100%;
+  height: 100vh;
+}
+.specification > h1 {
+  padding-top: 50px;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  text-align: center;
+}
+.specification > h1:before {
+  content: "\f105";
+  font-family: fontAwesome;
+  padding-right: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.specification > h1:after {
+  content: "\f104";
+  font-family: fontAwesome;
+  padding-left: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.manufacturer {
+  width: 94%;
+  height: auto;
+  padding-top: 60px;
+  margin-left: 100px;
+}
+.three-card {
+  width: 25%;
+  height: 60vh;
+  display: inline-block;
+  vertical-align: top;
+}
+.border-class {
+  border: 1px solid #cccccc;
+}
+.three-card > p,
+strong {
+  padding-left: 30px;
+  margin-top: 40px;
+  line-height: 26px;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  color: #515254;
+}
+.three-card > strong {
+  padding-left: 30px;
+  margin-top: 40px;
+  line-height: 26px;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  color: #515254;
+}
+.three-card > hr {
+  width: 50px;
+  margin-left: 30px;
+}
+.three-card > img {
+  width: 100%;
+  height: 100%;
+}
+.card-pic {
+  margin-left: 35px;
+}
+.card-pic-last {
+  width: 45.2%;
+
+  height: 60vh;
+  background-image: url(./specyfikacja.jpg);
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+.card-pic-last > img {
+  height: 100%;
+  width: 100%;
+}
+/* =================performance============= */
+.performance {
+  width: 100%;
+  height: 90vh;
+  color: #fff;
+  background: #1e1e1e;
+}
+.power {
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  padding-top: 60px;
+}
+.black-card {
+  width: 22%;
+  height: 67vh;
+  border: 1px solid white;
+  display: inline-block;
+  vertical-align: top;
+  border-color: #515254;
+}
+.black-card > h1 {
+  width: 300px;
+  font-size: 21px;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.black-card > p {
+  padding-left: 30px;
+  margin-top: 40px;
+  line-height: 43px;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  color: #fff;
+}
+.black-card > strong {
+  margin-top: 40px;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  color: #fff;
+}
+
+.black-card > hr {
+  width: 50px;
+  margin-left: 30px;
+}
+.black-pic {
+  margin-left: 80px;
+}
+.black-last {
+  margin-left: 80px;
+  width: 43%;
+}
+.range {
+  width: 200px;
+  height: 300px;
+  float: right;
+  margin-top: -338px;
+  margin-right: 100px;
+}
+.range > strong {
+  margin-left: -29px;
+  padding-left: 30px;
+  margin-top: 40px;
+  line-height: 43px;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  color: #fff;
+}
+.range > p {
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  line-height: 43px;
+}
+.range > hr {
+  width: 50px;
+  margin-left: 30px;
+  margin-left: 0px;
+}
+
+/* <!-- ================FLARIS & LAR 01 ============== --> */
+
+.lar-01 {
+  width: 100%;
+  height: 140vh;
+  background-image: url(./flarislar01_filtr.jpg);
+  background-size: 100% 100%;
+  text-align: center;
+  font-family: Yantramanav, "Open Sans", sans-serif;
+  color: #fff;
+  line-height: 24px;
+}
+.lar-01 > h1:before {
+  content: "\f105";
+  font-family: fontAwesome;
+  padding-right: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.lar-01 > h1:after {
+  content: "\f104";
+  font-family: fontAwesome;
+  padding-left: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.lar-01 > p {
+  width: 800px;
+  margin: auto;
+  padding-top: 40px;
+  color: #ffffff;
+  height: 800px;
+}
+.btn {
+  width: 80%;
+  height: 30vh;
+  margin: auto;
+}
+.btn-card {
+  width: 300px;
+  height: 30vh;
+  display: inline-block;
+  margin-left: 80px;
+  line-height: 100px;
+}
+.btn-card > button {
+  padding: 20px;
+  width: 300px;
+  height: 60px;
+  background: #000;
+  color: #00aaff;
+  font-size: 17px;
+  border: 1px solid #00aaff;
+}
+.lar-01 button:after {
+  content: "\f105";
+  font-family: fontAwesome;
+  padding-left: 10px;
+  color: white;
+  font-size: 17px;
+}
+button:hover {
+  color: white;
+  background: #00aaff;
+  transition: all 0.5s;
+}
+
+/* <!-- ================ GOT QUESTIONS? CONTACT US============ --> */
+
+.question {
+  width: 100%;
+  height: 80vh;
+}
+.got {
+  width: 40%;
+  height: 80vh;
+  display: inline-block;
+  vertical-align: top;
+}
+.got > img {
+  width: 100%;
+  height: 100%;
+}
+.got-one {
+  width: 55%;
+}
+.got > h1 {
+  padding-top: 80px;
+  padding-left: 70px;
+  font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+  color: #393739;
+}
+.got > h1:before {
+  content: "\f104";
+  font-family: fontAwesome;
+  padding-right: 10px;
+  color: #00aaff;
+  font-size: 17px;
+}
+.text-inputs {
+  width: 90%;
+  height: 55vh;
+  margin: auto;
+  margin-top: 40px;
+}
+.text-inputs > input {
+  width: 350px;
+  margin-top: 20px;
+  padding: 20px;
+  margin-left: 10px;
+  outline: none;
+  border: 1px solid #cccccc;
+}
+.text-area > textarea {
+  height: 150px;
+  width: 95%;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  outline: none;
+  border: 1px solid #cccccc;
+}
+
+/* <!-- =======================legal=========================== --> */
+
+.legal {
+  width: 100%;
+  height: 60vh;
+  background: #1e1e1e;
+}
+.legal-black {
+  width: 90%;
+  height: 30vh;
+  margin: auto;
+}
+.legal-black > img {
+  padding: 80px 0 0 80px;
+  display: inline-block;
+}
+.line {
+  width: 35%;
+  display: inline-block;
+}
+.about-card {
+  display: inline-block;
+  margin-left: 80px;
+  width: 110px;
+  vertical-align: middle;
+  height: 210px;
+  line-height: 40px;
+  padding-top: 60px;
+}
+.about-card > strong {
+  color: white;
+  padding: 0;
+}
+.line2 {
+  width: 53%;
+  display: inline-block;
+}
+.about-card > p {
+  color: #cccccc;
+  font-family: Yantramanav, sans-serif;
+}
+.place {
+  display: inline-block;
+  margin-left: 50px;
+  color: #fff;
+}
+.place > h1 {
+  font-size: 22px;
+}
+.place > h1,
+.place > input {
+  margin-top: 30px;
+  margin-left: -25px;
+}
+.place > input {
+  width: 550px;
+  padding: 20px;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+}
+.place > button {
+  display: block;
+  margin-top: 10px;
+  width: 550px;
+  padding: 15px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 17px;
+  margin-left: -25px;
+}
+
+/* <!-- =============footer--======= --> */
+
+.footer {
+  width: 100%;
+  height: 20vh;
+  background: #1e1e1e;
+}
+.footer-line {
+  width: 80.4%;
+  background-color: #cccccc;
+  height: 1px;
+  margin-left: 110px;
+}
+.footer p {
+  font-family: Yantramanav, sans-serif;
+  color: #cccccc;
+  padding: 30px 0 0 105px;
+}
+.footer i {
+  float: right;
+  color: #cccccc;
+  font-size: 30px;
+}
+.footer .fa-square-youtube {
+  position: relative;
+  bottom: 20px;
+  right: 220px;
+}
+.fa-square-facebook {
+  right: 215px;
+  position: relative;
+  bottom: 20px;
+}
